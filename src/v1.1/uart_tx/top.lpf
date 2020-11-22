@@ -1,0 +1,11 @@
+LOCATE      COMP "clk_i"    SITE "P6";
+IOBUF       PORT "clk_i"    IO_TYPE=LVCMOS33;
+FREQUENCY   PORT "clk_i"    25 MHZ;
+
+//LOCATE      COMP "TX"       SITE "B9";
+LOCATE      COMP "TX"       SITE "B4"; // ext-board P2-7
+IOBUF       PORT "TX"       IO_TYPE=LVCMOS33;
+
+LOCATE      COMP "RX"       SITE "A9";
+IOBUF       PORT "RX"       IO_TYPE=LVCMOS33;
+
