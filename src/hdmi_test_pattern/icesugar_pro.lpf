@@ -1,0 +1,37 @@
+BLOCK RESETPATHS;
+BLOCK ASYNCPATHS;
+## ULX3S v2.x.x and v3.0.x
+
+# The clock "usb" and "gpdi" sheet
+
+#ULX3S
+#LOCATE COMP "clk_25mhz" SITE "G2"; 
+
+#i5-v6.0
+LOCATE COMP "clk_25mhz" SITE "P6";
+IOBUF  PORT "clk_25mhz" PULLMODE=NONE IO_TYPE=LVCMOS33;
+FREQUENCY PORT "clk_25mhz" 25 MHZ;
+
+
+#iCESugar-pro HDMI
+LOCATE COMP "gpdi_dp[0]" SITE "G1"; # Blue +
+LOCATE COMP "gpdi_dn[0]" SITE "F1"; # Blue -
+LOCATE COMP "gpdi_dp[1]" SITE "J1"; # Green +
+LOCATE COMP "gpdi_dn[1]" SITE "H2"; # Green -
+LOCATE COMP "gpdi_dp[2]" SITE "L1"; # Red +
+LOCATE COMP "gpdi_dn[2]" SITE "K2"; # Red -
+LOCATE COMP "gpdi_dp[3]" SITE "E2"; # Clock +
+LOCATE COMP "gpdi_dn[3]" SITE "D3"; # Clock -
+
+IOBUF PORT "gpdi_dp[0]" IO_TYPE=LVCMOS33 DRIVE=4;
+IOBUF PORT "gpdi_dn[0]" IO_TYPE=LVCMOS33 DRIVE=4;
+IOBUF PORT "gpdi_dp[1]" IO_TYPE=LVCMOS33 DRIVE=4;
+IOBUF PORT "gpdi_dn[1]" IO_TYPE=LVCMOS33 DRIVE=4;
+IOBUF PORT "gpdi_dp[2]" IO_TYPE=LVCMOS33 DRIVE=4;
+IOBUF PORT "gpdi_dn[2]" IO_TYPE=LVCMOS33 DRIVE=4;
+IOBUF PORT "gpdi_dp[3]" IO_TYPE=LVCMOS33 DRIVE=4;
+IOBUF PORT "gpdi_dn[3]" IO_TYPE=LVCMOS33 DRIVE=4;
+
+LOCATE COMP "wifi_gpio0" SITE "A11";
+IOBUF  PORT "wifi_gpio0" PULLMODE=UP IO_TYPE=LVCMOS33 DRIVE=4;
+
