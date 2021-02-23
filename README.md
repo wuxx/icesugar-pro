@@ -2,11 +2,13 @@ iCESugar-pro
 -----------
 * [iCESugar-pro](#iCESugar-pro) 
 * [Hardware](#hardware)
-	* [ECP5](ecp5)
-	* [SDRAM](sdram)
-	* [SPI-Flash](spi-flash)
-	* [Peripheral](peripheral)
-	* [iCELink](icelink)
+	* [ECP5](#ecp5)
+	* [SDRAM](#sdram)
+	* [SPI-Flash](#spi-flash)
+	* [Clock](#clock)
+	* [Peripheral](#peripheral)
+	* [JTAG](#jtag)
+	* [iCELink](#icelink)
 * [virtual-machine-image](#virtual-machine-image)
 * [How-to-setup](#how-to-setup-env)
 * [How-to-buy](#how-to-buy)
@@ -69,7 +71,7 @@ done
 iCESugar-nano has a on board debugger named iCELink (base on APM32F1)，you can only use one USB wire to program the FPGA and debug, here is detail:   
 1. drag-and-drop program, just drop the bitstream into the virtual USB DISK iCELink, then wait a few second, the iCELink firmware will do the total program work
 2. USB CDC serial port, it can use to communicate with FPGA
-3. the MCO can provide 8MHz/12MHz/36MHz/72MHz clock for FPGA as extern clock. 
+3. 2 JTAG interfaces for flash the ECP5 or debug the SoC on ECP5
 4. use the command tool `icesprog` to flash or do more config, here is the help info
 ```
 $icesprog -h
@@ -137,6 +139,8 @@ select the yosys, nextpnr, icestorm, icesprog and install, after installed, ever
 you can buy iCESugar-pro and PMOD peripherals from our offcial aliexpress shop [Muse Lab Factory Store](https://muselab-tech.aliexpress.com/)
 
 # Reference
+### Colorlight-FPGA-Projects
+https://github.com/wuxx/Colorlight-FPGA-Projects
 ### icestorm toolchain
 http://www.clifford.at/icestorm/
 ### riscv gcc toolchain
