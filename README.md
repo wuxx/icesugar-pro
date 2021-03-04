@@ -17,9 +17,9 @@ iCESugar-pro
 # iCESugar-pro
 iCESugar-pro is a FPGA board base on Lattice LFE5U-25F-6BG256C, which is fully supported by the open source toolchain (yosys & nextpnr), the board is designed in DDR SODIMM form with 106 usable IOs, with on-board 32MB SDRAM, it can run the risc-v linux. the on board debugger iCELink (base on ARM Mbed DAPLink) support drag-and-drop program, you can just drag the FPGA bitstream into the virtual disk to program, and with a additional USB CDC serial port direct connect to FPGA, so you can only use one TYPE-C cable to develop and test.  
 <div align=center>
-<img src="https://github.com/wuxx/icesugar-pro/blob/main/doc/iCESugar-pro-1.jpg" width = "700" alt="" align=center />    
-<img src="https://github.com/wuxx/icesugar-pro/blob/main/doc/iCESugar-pro-2.jpg" width = "700" alt="" align=center />    
-<img src="https://github.com/wuxx/icesugar-pro/blob/main/doc/iCESugar-pro-3.jpg" width = "700" alt="" align=center />    
+<img src="https://github.com/wuxx/icesugar-pro/blob/master/doc/iCESugar-pro-1.jpg" width = "700" alt="" align=center />    
+<img src="https://github.com/wuxx/icesugar-pro/blob/master/doc/iCESugar-pro-2.jpg" width = "700" alt="" align=center />    
+<img src="https://github.com/wuxx/icesugar-pro/blob/master/doc/iCESugar-pro-3.jpg" width = "700" alt="" align=center />    
 </div>
 
 # Hardware
