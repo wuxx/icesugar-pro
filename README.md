@@ -17,7 +17,9 @@ iCESugar-pro
 # iCESugar-pro
 iCESugar-pro is a FPGA board base on Lattice LFE5U-25F-6BG256C, which is fully supported by the open source toolchain (yosys & nextpnr), the board is designed in DDR SODIMM form with 106 usable IOs, with on-board 32MB SDRAM, it can run the risc-v linux. the on board debugger iCELink (base on ARM Mbed DAPLink) support drag-and-drop program, you can just drag the FPGA bitstream into the virtual disk to program, and with a additional USB CDC serial port direct connect to FPGA, so you can only use one TYPE-C cable to develop and test.  
 <div align=center>
-<img src="https://github.com/wuxx/icesugar-pro/blob/main/doc/icesugar_pro_1.jpg" width = "700" alt="" align=center />    
+<img src="https://github.com/wuxx/icesugar-pro/blob/main/doc/iCESugar-pro-1.jpg" width = "700" alt="" align=center />    
+<img src="https://github.com/wuxx/icesugar-pro/blob/main/doc/iCESugar-pro-2.jpg" width = "700" alt="" align=center />    
+<img src="https://github.com/wuxx/icesugar-pro/blob/main/doc/iCESugar-pro-3.jpg" width = "700" alt="" align=center />    
 </div>
 
 # Hardware
@@ -68,7 +70,7 @@ done
 ```
 
 ### iCELink
-iCESugar-nano has a on board debugger named iCELink (base on APM32F1)，you can only use one USB wire to program the FPGA and debug, here is detail:   
+iCESugar-pro has a on board debugger named iCELink (base on APM32F1)，you can only use one USB wire to program the FPGA and debug, here is detail:   
 1. drag-and-drop program, just drop the bitstream into the virtual USB DISK iCELink, then wait a few second, the iCELink firmware will do the total program work
 2. USB CDC serial port, it can use to communicate with FPGA
 3. 2 JTAG interfaces for flash the ECP5 or debug the SoC on ECP5
