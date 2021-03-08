@@ -3,7 +3,7 @@
 1. program the bitstream  
 `$icesprog ../demo/linux-with-litex.bit`
 
-2. put system files into the sdcard
+2. put system files into the rootdir of sdcard (the sdcard should be formatted as fat32 file system before)
 `$cp * ${YOUR_USB_DISK}`
 
 3. power on iCESugar-pro, open the serial port to check the linux start up
