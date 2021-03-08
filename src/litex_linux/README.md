@@ -2,5 +2,6 @@
 https://github.com/litex-hub/linux-on-litex-vexriscv.git
 
 # how to build
-just pick a ECP5 type board and generate the verilog source files, enter the build directory and do some little modify of the Makefile and lpf file
+just pick a ECP5 type board and generate the verilog source files, enter the build directory and do some little modify of the Makefile and lpf file  
+this project is borrowed from ULX3S board in linux-on-litex-vexriscv
 

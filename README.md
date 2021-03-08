@@ -138,7 +138,7 @@ now you can use the msys2 environment to setup the open source toolchain easily,
 select the yosys, nextpnr, icestorm, icesprog and install, after installed, everything is same as in linux!
 
 # How-to-buy
-you can buy iCESugar-pro and PMOD peripherals from our offcial aliexpress shop [Muse Lab Factory Store](https://muselab-tech.aliexpress.com/)
+you can buy iCESugar-pro and PMOD peripherals from our offcial aliexpress shop [Muse Lab Factory Store](https://muselab-tech.aliexpress.com/) or search `iCESugar-Pro FPGA` on [www.aliexpress.com](https://www.aliexpress.com)
 
 # Reference
 ### Colorlight-FPGA-Projects
