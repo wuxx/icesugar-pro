@@ -12,6 +12,7 @@ iCESugar-pro
 * [virtual-machine-image](#virtual-machine-image)
 * [How-to-setup](#how-to-setup-env)
 * [How-to-buy](#how-to-buy)
+* [Copyright Statement](#copyright-statement)
 * [Reference](#reference)
 
 # iCESugar-pro
@@ -137,8 +138,15 @@ now you can use the msys2 environment to setup the open source toolchain easily,
 ```
 select the yosys, nextpnr, icestorm, icesprog and install, after installed, everything is same as in linux!
 
+
 # How-to-buy
 you can buy iCESugar-pro and PMOD peripherals from our offcial aliexpress shop [Muse Lab Factory Store](https://muselab-tech.aliexpress.com/) or search `iCESugar-Pro FPGA` on [www.aliexpress.com](https://www.aliexpress.com)
+
+# Copyright Statement
+the hdmi test verilog source code is from [https://github.com/DoctorWkt/ULX3S-Blinky](https://github.com/DoctorWkt/ULX3S-Blinky)  
+the linux related project is from [https://github.com/litex-hub/linux-on-litex-vexriscv](https://github.com/litex-hub/linux-on-litex-vexriscv)  
+for hobby and personal usage, you are free to use the iCESugar-pro, you can also make the board yourself by document & firmware in this repo.  
+for the commercial usage, if you got iCESugar-pro Board from our official shop and use in other commercial product, that's no problem, in other situation, please contact us in advance.  
 
 # Reference
 ### Colorlight-FPGA-Projects
