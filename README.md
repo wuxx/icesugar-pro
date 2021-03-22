@@ -98,19 +98,20 @@ usage: /home/pi/oss/icesugar/tools/icesprog.arm [OPTION] [FILE]
 cause the iCELink connect some GPIOs to the ECP5, you can control this GPIOs with `icesprog` to do some self defined behavior, 
 for example, to control the iCELink-PA14 -- ECP5-F5 line out low, type these command.
 ```
-$icespgor -g PA14 -m out
-$icespgor -g PA14 -w 0
+$icesprog -g PA14 -m out
+$icesprog -g PA14 -w 0
 ```
 
 #### How-To-Program
 there are multiple ways to program the bitstream.
-1. drag-and-drop program, this may be the fastest and simplest way to flash.
-2. use the command `icesprog xxx.bit`, this can provide more configable parameters.
-3. use the command `dapprog xxx.bit (program to flash) or dapprog xxx.svf (program to SRAM)`
+1. drag-and-drop program, this may be the fastest and simplest way to flash.  
+2. use the command `icesprog xxx.bit`, this can provide more configable parameters.  
+3. use the command `dapprog xxx.bit (program to flash) or dapprog xxx.svf (program to SRAM)`  
+the `icesprog` binary and source code is in [icesugar](https://github.com/wuxx/icesugar/tree/master/tools) repo, and the `dapprog` is a bash wrapper of openocd command, click [here](https://github.com/wuxx/icesugar-pro/tree/master/tools) to check how to setup.
 
 # virtual-machine-image
-link：https://pan.baidu.com/s/1qVSdwM7DnFbaS0xdqsPNrA  
-verify code：6gn3  
+link：https://pan.baidu.com/s/1vV2ckFpOuyd600Y47Tl1sw  
+verify code：i3en  
 `user: ubuntu`  
 `passwd: ubuntu`  
 or
