@@ -16,7 +16,7 @@ iCESugar-pro
 * [Reference](#reference)
 
 # iCESugar-pro
-iCESugar-pro is a FPGA board base on Lattice LFE5U-25F-6BG256C, which is fully supported by the open source toolchain (yosys & nextpnr), the board is designed in DDR SODIMM form with 106 usable IOs, with on-board 32MB SDRAM, it can run RISC-V Linux. the on board debugger iCELink (base on ARM Mbed DAPLink) support drag-and-drop program, you can just drag the FPGA bitstream into the virtual disk to program, and with a additional USB CDC serial port direct connect to FPGA, so you can only use one TYPE-C cable to develop and test.  
+iCESugar-pro is a FPGA board base on Lattice LFE5U-25F-6BG256C, which is fully supported by the open source toolchain (yosys & nextpnr), the board is designed in DDR2 SODIMM form with 106 usable IOs, with on-board 32MB SDRAM, it can run RISC-V Linux. the on board debugger iCELink (base on ARM Mbed DAPLink) support drag-and-drop program, you can just drag the FPGA bitstream into the virtual disk to program, and with a additional USB CDC serial port direct connect to FPGA, so you can only use one TYPE-C cable to develop and test.  
 <div align=center>
 <img src="https://github.com/wuxx/icesugar-pro/blob/master/doc/iCESugar-pro-1.jpg" width = "700" alt="" align=center />    
 <img src="https://github.com/wuxx/icesugar-pro/blob/master/doc/iCESugar-pro-2.jpg" width = "700" alt="" align=center />    
@@ -45,7 +45,7 @@ a 25MHz crystal is connect to P6
 ### Peripheral
 2. a RGB LED is connected to {A11, A12, B11}
 3. a SDCARD slot, support SPI/SDIO
-4. 106 usable IOs out with DDR SODIMM, can use with ext-board.
+4. 106 usable IOs out with SODIMM-DDR2-200P, can use with ext-board.
 
 ### JTAG
 the native JTAG of ECP5 is connect to the on-board iCELink, you can flash bistream with this JTAG interface (called JTAG1).
