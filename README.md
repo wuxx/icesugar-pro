@@ -141,7 +141,7 @@ select the yosys, nextpnr, icestorm, icesprog and install, after installed, ever
 
 
 # How-to-buy
-you can buy iCESugar-pro and PMOD peripherals from our offcial aliexpress shop [Muse Lab Factory Store](https://miusecn-muselab-tech.aliexpress.com/) or search `iCESugar-Pro FPGA` on [www.aliexpress.com](https://www.aliexpress.com)
+you can buy iCESugar-pro and PMOD peripherals from our offcial aliexpress shop [Muse Lab Factory Store](https://miusecn-muselab-tech.aliexpress.com/) or search `iCESugar-Pro FPGA` on [www.aliexpress.com](https://miusecntech-muselab.aliexpress.com/)
 
 # Copyright Statement
 the hdmi test verilog source code is from [https://github.com/DoctorWkt/ULX3S-Blinky](https://github.com/DoctorWkt/ULX3S-Blinky)  
